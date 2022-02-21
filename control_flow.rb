@@ -8,6 +8,7 @@ def admin_login(username, password)
   end
 end
 
+
 def hows_the_weather(temperature)
   if temperature < 40
     "It's brisk out there!"
@@ -20,6 +21,7 @@ def hows_the_weather(temperature)
   end
 end
 
+
 def fizzbuzz(num)
   if num % 3 == 0 && num % 5 == 0
     "FizzBuzz"
@@ -31,6 +33,7 @@ def fizzbuzz(num)
     num
   end
 end
+
 
 def calculator(operation, num1, num2)
   if operation == '+' 
@@ -45,4 +48,3 @@ def calculator(operation, num1, num2)
     puts "Invalid operation!"
   end
 end
-
